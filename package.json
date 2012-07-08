@@ -1,0 +1,41 @@
+{
+  "name": "grunt-jasmine-node-task",
+  "description": "Grunt task for running jasmine specs in node",
+  "version": "0.1.0",
+  "homepage": "https://github.com/doclm/grunt-jasmine-node-task",
+  "author": {
+    "name": "Liam Magee",
+    "email": "liam.magee@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/doclm/grunt-jasmine-node-task.git"
+  },
+  "bugs": {
+    "url": "https://github.com/doclm/grunt-jasmine-node-task/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/doclm/grunt-jasmine-node-task/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "grunt.js",
+  "bin": "bin/grunt-jasmine-node-task",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "grunt": "~0.3.11"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.11"
+      , "jasmine-node": "~1.0.26"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
