@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/doclm/grunt-jasmine-node-task.png)](http://travis-ci.org/doclm/grunt-jasmine-node-task)
 # grunt-jasmine-node-task
 
 Grunt task for running jasmine specs in node
